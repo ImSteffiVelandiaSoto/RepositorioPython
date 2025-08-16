@@ -9,6 +9,7 @@ datos={
 
 #2 convertirlo a un Dataframe
 dFrame= pd.DataFrame(datos)
+dFrame= pd.DataFrame(datos)
 
 #3 imprmir datos
 print("Dataframe")
