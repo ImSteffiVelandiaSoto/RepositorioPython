@@ -1,0 +1,67 @@
+/* Reset básico para márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* NAV */
+nav {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* MAIN LAYOUT */
+main {
+  display: flex;
+  flex-direction: row;
+  min-height: 400px;
+}
+
+/* SECTION - CONTENIDO */
+section {
+  flex: 3;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+section article {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* ASIDE - PUBLICIDAD */
+aside {
+  flex: 1;
+  background-color: green;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-style: italic;
+}
