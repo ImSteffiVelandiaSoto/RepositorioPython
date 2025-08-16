@@ -1,10 +1,10 @@
 import pandas as pd 
 # 1 crear el diccionario
 datos={
-    "Nombres":["Ana", "Jaime", "Luis", "Camilo", "Jose"],
+    "Nombres":["Ana", "Jaime", "Luis", "Camilo"],
     "Edades":[23 , 23, 35, 85, 52],
-    "Ciudad":["Medellin", "Bogotá", "Cali", "Medellin", "Cartagena"],
-    "Salario":[2500000,3000000, 4500000, 1500000,  2000000]
+    "Ciudad":["Medellin", "Bogotá", "Cali", "Medellin"],
+    "Salario":[2500000,3000000, 4500000, 1500000]
 }
 
 #2 convertirlo a un Dataframe
